@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7798502555:AAHDD2L_YGu7xx8gLbyU7jrFYc6B5nOQvqw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7798502555:AAHy3IZDDwBXDLCDm-bMIBKuty0TN3Hy_Iw")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22409622"))
 #Your API Hash from my.telegram.org
@@ -20,12 +20,12 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002284341995"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Parth")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1119579816"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5574593875"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Sistaanimebash:Sistaanimebash@cluster0.w6ucx5p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Toonpro12:animebash@cluster0.e6hpn8l.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "dschut")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001715616229"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002042679953"))
@@ -40,7 +40,7 @@ ABOUT_TXT = "<b>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Officialcreater>UN
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "7211073530 1119579816 6315792232 574593875").split()):
+    for x in (os.environ.get("ADMINS", "1119579816 6315792232 7211073530 5574593875").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
