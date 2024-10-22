@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "22409622"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "16353e2a4d45ff8be4a2037cca158749")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002284341995"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002314453306"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Parth")
 #OWNER ID
@@ -27,8 +27,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Toonpro12:animebash@cluster0.e6hpn8l.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "dschut")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001715616229"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002042679953"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002277424597"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001701887759"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
