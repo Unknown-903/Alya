@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7798502555:AAHy3IZDDwBXDLCDm-bMIBKuty0TN3Hy_Iw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8000055540:AAH-JWLddFYb-bU6uN1yhlDEbxqsTMdZEYY")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22409622"))
 #Your API Hash from my.telegram.org
@@ -40,7 +40,7 @@ ABOUT_TXT = "<b>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Officialcreater>UN
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "1119579816 6315792232 7211073530 5574593875 7324758464").split()):
+    for x in (os.environ.get("ADMINS", "1119579816 6315792232 7211073530 5574593875 6427494689 7324758464").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
